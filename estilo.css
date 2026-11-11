@@ -52,3 +52,18 @@ button:disabled {
   color: #53675c;
   cursor: not-allowed;
 }
+
+#operacoes > section.concluida {
+  background: #dcfce7;
+  border-color: #16a34a;
+}
+
+#operacoes > section.liberada {
+  background: #fef3c7;
+  border-color: #d97706;
+}
+
+#operacoes > section.bloqueada {
+  background: #e5e7eb;
+  border-color: #9ca3af;
+}

@@ -25,10 +25,13 @@ function atualizarTela() {
 
     if (operacao.concluida) {
       status.textContent = "Concluída";
+      caixa.className = "concluida";
     } else if (liberada) {
       status.textContent = "Liberada para começar";
+      caixa.className = "liberada";
     } else {
       status.textContent = "Aguarda a operação " + operacao.anterior;
+      caixa.className = "bloqueada";
     }
 
     botao.textContent = "Concluir operação";
